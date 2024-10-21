@@ -98,7 +98,6 @@ header{
     font-size: 4rem;
     font-weight: 900;
     text-align: left;
-    /* width: 500px; */
     margin-bottom: 20px;
 }
 
@@ -166,6 +165,73 @@ header{
 }
 
 
+/* main section */
+
+main{
+    background-color: rgba(0, 0, 0, 0.921);
+}
+/* change your habit section */
+.change-your-habit{
+    margin: auto 180px;
+}
+
+.change-ur-habit-description{
+    text-align: center;
+}
+
+.change-ur-habit-description h1{
+    color: rgb(255, 255, 255);
+    font-size: 2.5rem;
+    font-weight: 900;
+    padding-top: 20px;
+}
+.change-ur-habit-description p{
+    
+    color: rgba(255, 255, 255, 0.5);
+    font-size: 0.8rem;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0.3px;
+    text-align: center;
+}
+
+.habit-card{
+    max-width: 225px ;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+
+}
+.habit-card img{
+    border-radius: 100%;
+    width: 100%;
+}
+
+.habit-container h3{
+    color: rgb(255, 255, 255);
+    font-size: 1rem;
+    font-weight: 600;
+    margin: 10px auto;
+}
+
+.habit-container p{
+    color: rgba(255, 255, 255, 0.5);
+    font-size: 14px;
+    font-weight: 400;
+    letter-spacing: 0.3px;
+    margin: 10px auto;
+}
+
+.change-ur-habit-pic{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    justify-items: center;
+    gap: 20px;
+    margin-top: 50px;
+}
+
+
 
 /* Responsive designs */
 
@@ -192,6 +258,24 @@ header{
         align-items: center;
     }
 
+    .change-your-habit{
+        margin: auto;
+    }
+
+    .change-ur-habit-pic{
+        display: grid;
+        grid-template-columns: repeat(1,1fr);
+        gap: 10px;
+    }
+
+    .habit-card{
+        border: 2px solid red;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        text-align: center;
+    
+    }
 
 
 
