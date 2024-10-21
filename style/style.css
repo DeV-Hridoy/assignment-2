@@ -91,18 +91,14 @@ header{
     justify-content: space-between;
     align-items: center;
 }
-.banner-description{
 
-    margin-right: 250px;
-}
 
 .banner-description h1{
     color: rgb(255, 255, 255);
-    font-family: Inter;
     font-size: 4rem;
     font-weight: 900;
     text-align: left;
-    width: 520px;
+    /* width: 500px; */
     margin-bottom: 20px;
 }
 
@@ -119,7 +115,6 @@ header{
     font-size: .8rem;
     font-weight: 400;
     text-align: left;
-    width: 520px;
     margin-bottom: 20px;
 }
 
@@ -140,7 +135,7 @@ header{
 
 .banner-image img{
     width: 80%;
-    /* height: auto; */
+    
 }
 
 .video , .free {
@@ -162,7 +157,7 @@ header{
 .video{
     position: absolute;
     top: 320px;
-   left: -40px;
+    left: -40px;
 }
 .free{
    position: absolute;
@@ -170,12 +165,7 @@ header{
    left: 180px;
 }
 
-/* #circle{
-    width: 40px;
-    height: 40px;
-    border-radius: 100%;
-    background: rgb(230, 83, 60);
-} */
+
 
 /* Responsive designs */
 
@@ -190,6 +180,19 @@ header{
         margin: auto 10px;
         padding-top: 15px;
     }
+
+    .banner{
+        flex-direction: column;
+        margin: auto 10px;
+    }
+  
+    .banner-img{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+
 
 
 }
