@@ -1,6 +1,11 @@
 /* Font family -Inter */
 @import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
 
+/* font-family- miama */
+@import url('https://fonts.cdnfonts.com/css/miama');
+
+                
+
 
 .inter {
   font-family: "Inter", sans-serif;
@@ -9,13 +14,14 @@
   font-style: normal;
 }
 
+
 *{
     margin: 0;
     padding: 0;
 }
 
 header{
-    background: linear-gradient(180.00deg, rgb(17, 17, 17),rgba(119, 119, 119, 0) 100%);
+    background: linear-gradient(180.00deg, rgb(17, 17, 17),rgb(34, 34, 34) 100%);
 }
 
 /* shared styles */
@@ -28,6 +34,12 @@ header{
     color: rgb(255, 255, 255);
     font-size: .8rem;
     font-weight: 600;
+}
+.text-small{
+    color: rgba(255, 255, 255, 0.5);
+    font-size: .8rem;
+    font-weight: 400;
+    text-align: left;
 }
 
 /* navbar styles */
@@ -71,6 +83,99 @@ header{
     display: none;
 }
 
+/* Banner section designs */
+
+.banner{
+    display: flex;
+    margin: auto 180px;
+    justify-content: space-between;
+    align-items: center;
+}
+.banner-description{
+
+    margin-right: 250px;
+}
+
+.banner-description h1{
+    color: rgb(255, 255, 255);
+    font-family: Inter;
+    font-size: 4rem;
+    font-weight: 900;
+    text-align: left;
+    width: 520px;
+    margin-bottom: 20px;
+}
+
+.miama{
+    font-family: 'Miama', sans-serif;  
+    font-size: 4rem;
+    font-weight: 900;
+    text-align: left; 
+
+}
+
+.banner-description p{
+    color: rgba(255, 255, 255, 0.5);
+    font-size: .8rem;
+    font-weight: 400;
+    text-align: left;
+    width: 520px;
+    margin-bottom: 20px;
+}
+
+.btn-secondary{
+    box-sizing: border-box;
+    border: 1px solid rgb(255, 255, 255);
+    border-radius: 46px;
+    padding: 8px 20px 8px 20px;
+    background: rgba(0, 0, 0, 0.826);
+    color: rgb(255, 255, 255);
+    font-size: .8rem;
+    font-weight: 600;
+
+}
+.banner-image{
+    position: relative;
+}
+
+.banner-image img{
+    width: 80%;
+    /* height: auto; */
+}
+
+.video , .free {
+    box-sizing: border-box;
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    border-radius: 12px;
+    backdrop-filter: blur(20px);
+    background: rgba(48, 48, 48, 0.54);
+    padding: 15px 25px;
+    text-align: left;
+}
+
+.jambo{
+    color: rgb(250, 250, 249);
+    font-size: 1.2rem;
+    font-weight: 900;
+}
+
+.video{
+    position: absolute;
+    top: 320px;
+   left: -40px;
+}
+.free{
+   position: absolute;
+   top: 100px;
+   left: 180px;
+}
+
+/* #circle{
+    width: 40px;
+    height: 40px;
+    border-radius: 100%;
+    background: rgb(230, 83, 60);
+} */
 
 /* Responsive designs */
 
