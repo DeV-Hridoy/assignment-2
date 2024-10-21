@@ -37,6 +37,7 @@ header{
     justify-content: space-between;
     align-items: center;
     margin: auto 180px;
+    padding-top: 20px;
 }
 
 .nav-title{
@@ -68,4 +69,22 @@ header{
 
 .navbar i{
     display: none;
+}
+
+
+/* Responsive designs */
+
+@media screen and (max-width:576px) {
+    .nav-menu{
+        display: none;
+    }
+    .navbar i{
+        display: block;
+    }
+    .navbar{
+        margin: auto 10px;
+        padding-top: 15px;
+    }
+
+
 }
