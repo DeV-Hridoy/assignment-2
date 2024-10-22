@@ -277,6 +277,7 @@ main{
 /* Meet our team section */
 .meet-our-team{
     margin: auto 180px;
+    padding-bottom: 50px;
 }
 
 .meet-our-team-description h2{
